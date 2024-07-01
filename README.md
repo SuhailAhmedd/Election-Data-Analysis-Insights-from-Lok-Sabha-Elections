@@ -62,7 +62,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # URL of the election results page
-url = 'http://eciresults.nic.in/'
+url = 'https://results.eci.gov.in/'
 
 response = requests.get(url)
 soup = BeautifulSoup(response.content, 'html.parser')
